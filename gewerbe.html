@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gewerbefläche - Transit Possendorf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .back-link {
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background-color: #3a5a84;
+            text-decoration: none;
+        }
+        
+        .gewerbe-section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .gewerbe-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .gewerbe-detail-box {
+            background-color: var(--light-color);
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .gewerbe-detail-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .gewerbe-detail-box ul li {
+            margin-bottom: 12px;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .gewerbe-detail-box ul li i {
+            margin-right: 15px;
+            color: var(--primary-color);
+            font-size: 2rem;
+            min-width: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Gewerbefläche - Transit Possendorf</h1>
+            <p class="subtitle">Neubau, Fertigstellung Oktober 2025</p>
+        </div>
+    </header>
+
+    <main>
+        <a href="index.html" class="back-link">← Zurück zur Hauptseite</a>
+        
+        <section class="gewerbe-section">
+            <h2>Gewerbefläche zu vermieten</h2>
+            <p>Im 1. OG des Wohn- und Geschäftshauses bieten wir eine Bürofläche zur Vermietung an.</p>
+            
+            <div class="gewerbe-details">
+                <div class="gewerbe-detail-box">
+                    <h3>Eckdaten</h3>
+                    <ul>
+                        <li><i class="fas fa-expand"></i> Gesamtfläche: ca. 40 m²</li>
+                        <li><i class="fas fa-wheelchair"></i> Barrierefrei zugänglich</li>
+                    </ul>
+                </div>
+                
+                <div class="gewerbe-detail-box">
+                    <h3>Ausstattung</h3>
+                    <ul>
+                        <li><i class="fas fa-temperature-low"></i> Fußbodenheizung/-kühlung</li>
+                        <li><i class="fas fa-ruler-combined"></i> Teppichboden</li>
+                        <li><i class="fas fa-toilet"></i> WC</li>
+                        <li><i class="fas fa-wifi"></i> Breitband-Glasfaseranschluss</li>
+                        <li><i class="fas fa-parking"></i> Parkplätze</li>
+                    </ul>
+                </div>
+                
+                <div class="gewerbe-detail-box">
+                    <h3>Konditionen</h3>
+                    <ul>
+                        <li><i class="fas fa-euro-sign"></i> Mietpreis auf Anfrage</li>
+                        <li><i class="fas fa-calendar-alt"></i> Bezugsfertig ab Oktober 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="lage" class="section">
+            <h2>Lage</h2>
+            <p>Hauptstraße 22, 01728 Bannewitz</p>
+            <p>Unsere Gewerbefläche befindet sich in zentraler Lage von Possendorf mit hervorragender Sichtbarkeit und Erreichbarkeit.</p>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.940307000225!2d13.768944676907!3d50.963662971723716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709cf7f43be5c29%3A0xc1f49b7616c35a0d!2sHauptstra%C3%9Fe%2022%2C%2001728%20Bannewitz!5e0!3m2!1sde!2sde!4v1631517307757!5m2!1sde!2sde" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        
+        <section id="kontakt" class="section">
+            <h2>Kontakt</h2>
+            <p>Anfragen bitte an <a href="mailto:info@transit-possendorf.de">info@transit-possendorf.de</a> oder Telefon <a href="tel:01751136804">0175 1136804</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
+</body>
+</html> 
