@@ -79,10 +79,15 @@ h1 {
 nav {
     background-color: white;
     border-bottom: 1px solid var(--border-color);
-    position: sticky;
-    top: 0;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 769px) {
+    nav {
+        position: sticky;
+        top: 0;
+    }
 }
 
 nav ul {
